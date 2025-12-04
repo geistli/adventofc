@@ -49,13 +49,7 @@ int main(int argc, char *argv[]) {
                 sprintf(num_str, "%ld", i);
                 if (is_repeating(num_str)) {
                     c += i;
-                
-                    if (c < 0){
-                        printf("token: %s\n", token);
-                        printf("st en: %ld %ld\n", start, end);
-                        printf("cur n: %ld\n", i);
-                        printf("c: %ld\n", c);
-                    }}
+                }
             }
 
             token = strtok(NULL, ",");
